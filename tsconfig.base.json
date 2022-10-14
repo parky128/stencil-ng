@@ -1,0 +1,34 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2019", "es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "strictPropertyInitialization": false,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "strictNullChecks": false,
+    "baseUrl": ".",
+    "resolveJsonModule": true,
+    "noImplicitReturns": false,
+    "paths": {
+      "@al/core-components": ["dist/packages/core-components"],
+      "@al/core-components-angular": [
+        "libs/core-components-angular/src/index.ts"
+      ],
+      "@al/core-components/loader": [
+        "dist/libs/core-components/loader"
+      ]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
